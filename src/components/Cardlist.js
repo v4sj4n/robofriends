@@ -13,8 +13,7 @@ const Cardlist = ({ robots }) => {
             email={robots[i].email}
           />
         );
-      })
-      }
+      })}
     </div>
   );
 };
